@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+     
+    
+}
+body{
+  
+    background:linear-gradient(to right,rgba(191, 132, 199, 0.9)0%,rgba(117, 202, 191, 0.9)90%) ;
+}
+.container{
+    background-color: aliceblue;
+    width: 1000px;
+    height: 500px;
+    margin:70px auto;
+    border-radius: 5px;
+    box-shadow:0 0 5px 0.5px rgb(207, 206, 206);
+    padding-left:40px ;
+    display: flex;
+
+}
+.listContainer{
+   width: 200px;
+     
+    background-color: rgb(163, 124, 207);
+    height: 100%;
+    padding:30px 18px;
+    position: relative;
+    
+   
+     
+}
+.listContainer img{
+     
+    width: 170px;
+    height:170px;
+    border-radius: 50%;
+    position: relative;
+    z-index:20;
+     
+     
+}
+ul{
+ width: 140px;
+ height:260px;
+ background-color: rgb(223, 222, 222);
+ position: absolute;
+ top: 150px;
+ left:30px;
+ border-radius: 15px;
+ padding-top:60px;
+ 
+}
+.menu h3{
+    color: rgb(241, 59, 226);
+    padding:0 20px 10px;
+}
+.menu li{
+     list-style:none;    
+}
+
+.menu li a{
+    text-decoration: none;
+     font-weight: bold;
+     font-size: 14px;
+     color: gray;   
+    padding:12px 20px;
+    display: inline-block;
+    width: 140px;
+}
+.menu li a:hover{
+  background-color:rgb(200,200,200) ;
+    color: rgb(54, 35, 56);   
+}
+.informations{
+    width: 760px;
+    height:500px;
+    
+     overflow: hidden;
+    align-items: center;
+   
+     
+    
+}
+.informations div{
+    width: 700px;
+    height: 480px;
+    padding:50px 60px;
+    background-color: rgb(230, 229, 229);
+    border-radius:0 0 10px 10px;
+    margin:30px auto;
+    
+}
+.informations div h1{
+   color: rgb(54, 35, 56); 
+   margin-bottom: 50px;
+}
+.informations div h2{
+    padding-bottom:20px;
+}
+.informations div p{
+    font-weight: bold;
+    padding: 0px 0 20px;
+}
+.informations div span{
+    
+    font-weight: normal;
+    color: rgb(58, 30, 65);
+    display: inline-block;
+     
+}
+.informations div h3{
+    padding: 20px 0;
+}
+
+@media(max-width:900px){
+    .container{
+        width: 600px;
+         
+    }
+    .informations{
+        width:400px;
+    }
+    .informations div{
+        width:350px;
+       padding: 20px;
+       overflow: scroll;
+    }
+    
+    
+}
+ 
